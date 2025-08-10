@@ -2385,29 +2385,26 @@ img {
   height: 11px;
 }
 .images-product__thumbs {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 120px;
-          flex: 0 0 120px;
-  height: 510px;
   margin: 35px 0px;
   position: relative;
   min-width: 0;
 }
+@media (min-width: 993px) {
+  .images-product__thumbs {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 120px;
+            flex: 0 0 120px;
+    height: 510px;
+  }
+}
 @media (max-width: 992px) {
   .images-product__thumbs {
     margin: 20px 0px 0px 0px;
-    height: 100%;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto;
   }
 }
-.images-product__thumb {
-  height: 510px;
-}
-@media (max-width: 992px) {
+@media (min-width: 993px) {
   .images-product__thumb {
-    height: auto;
+    height: 510px;
   }
 }
 @media (max-width: 1330px) {

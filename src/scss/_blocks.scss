@@ -576,24 +576,23 @@
   // .images-product__thumbs
 
   &__thumbs {
-    flex: 0 0 120px;
-    height: 510px;
     margin: 35px 0px;
     position: relative;
     min-width: 0;
+    @media (min-width: 993px) {
+      flex: 0 0 120px;
+      height: 510px;
+    }
     @media (max-width: 992px) {
       margin: 20px 0px 0px 0px;
-      height: 100%;
-      flex: 0 1 auto;
     }
   }
 
   // .images-product__thumb
 
   &__thumb {
-    height: 510px;
-    @media (max-width: 992px) {
-      height: auto;
+    @media (min-width: 993px) {
+      height: 510px;
     }
     @media (max-width: 1330px) {
       margin: 0px -20px;
