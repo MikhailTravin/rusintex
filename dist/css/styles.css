@@ -2353,7 +2353,6 @@ img {
 @media (max-width: 992px) {
   .images-product__slide {
     border-radius: 20px;
-    aspect-ratio: 1/1;
   }
 }
 .images-product__play {
