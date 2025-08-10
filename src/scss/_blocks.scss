@@ -502,9 +502,13 @@
     height: 580px;
     flex-direction: row-reverse;
   }
+  @media (max-width: 992px) {
+    flex: 1 1 auto;
+  }
   // .images-product__slider
 
   &__slider {
+    display: flex;
     min-width: 0;
     @media (max-width: 1330px) {
       margin: 0px -20px;
@@ -513,7 +517,6 @@
     }
     @media (min-width: 993px) {
       flex: 1 1 740px;
-      display: flex;
       width: 100%;
     }
   }
@@ -578,10 +581,10 @@
   &__thumbs {
     margin: 35px 0px;
     position: relative;
-    min-width: 0;
     @media (min-width: 993px) {
       flex: 0 0 120px;
       height: 510px;
+      min-width: 0;
     }
     @media (max-width: 992px) {
       margin: 20px 0px 0px 0px;
