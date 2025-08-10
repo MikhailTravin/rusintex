@@ -196,6 +196,13 @@ a {
 .form .btn {
   width: 100%;
 }
+.form .wrap-input-for-icons {
+  position: relative;
+  width: 100%;
+}
+.form .icon-check {
+  right: 15px;
+}
 .form__inputs {
   width: 100%;
   gap: 15px;
@@ -4042,6 +4049,7 @@ body::after {
 .popup .form__input input {
   border: 1px solid transparent;
   background-color: #f1f5f7;
+  color: var(--theme-color-text-common);
 }
 .popup .form__input input::-webkit-input-placeholder {
   color: rgba(71, 78, 87, 0.5);
