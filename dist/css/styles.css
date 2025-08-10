@@ -2540,6 +2540,11 @@ img {
 .tabs__title:hover {
   opacity: 1;
 }
+@media (max-width: 768px) {
+  .tabs__title:hover {
+    opacity: 0.5;
+  }
+}
 .tabs__title._tab-active {
   opacity: 1;
   border-bottom: 4px solid var(--theme-color-accent);

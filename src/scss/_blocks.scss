@@ -714,6 +714,9 @@
     border-bottom: 4px solid transparent;
     &:hover {
       opacity: 1;
+      @media (max-width: 768px) {
+        opacity: 0.5;
+      }
     }
     &._tab-active {
       opacity: 1;
