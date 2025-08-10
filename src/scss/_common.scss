@@ -194,7 +194,7 @@ img {
     img {
       width: 20px;
       height: 14px;
-      filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+      filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
       margin: 0px 0px 4px 0px;
     }
     @media (max-width: 992px) {
@@ -554,7 +554,7 @@ img {
       width: 20px;
       height: 14px;
       transition: filter 0.3s;
-      filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+      filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
     }
     &::after {
       content: "";
@@ -628,7 +628,7 @@ img {
       width: 16px;
       height: 12px;
       margin: -3px 0px 0px 0px;
-      filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+      filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
       @media (max-width: 480px) {
         margin: -4px 0px 0px 0px;
       }

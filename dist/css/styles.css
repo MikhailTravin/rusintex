@@ -752,8 +752,8 @@ a {
           flex: 0 0 21px;
   width: 21px;
   height: 15px;
-  -webkit-filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
-          filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+  -webkit-filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+          filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
 }
 .catalog-header__body ul li a:hover {
   color: var(--theme-color-accent);
@@ -1126,8 +1126,8 @@ img {
 .heading-complex__link img {
   width: 20px;
   height: 14px;
-  -webkit-filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
-          filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+  -webkit-filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+          filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
   margin: 0px 0px 4px 0px;
 }
 @media (max-width: 992px) {
@@ -1591,8 +1591,8 @@ img {
   transition: -webkit-filter 0.3s;
   transition: filter 0.3s;
   transition: filter 0.3s, -webkit-filter 0.3s;
-  -webkit-filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
-          filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+  -webkit-filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+          filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
 }
 .cart__arrow::after {
   content: "";
@@ -1687,8 +1687,8 @@ img {
   width: 16px;
   height: 12px;
   margin: -3px 0px 0px 0px;
-  -webkit-filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
-          filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+  -webkit-filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+          filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
 }
 @media (max-width: 480px) {
   .contacts__call img {
@@ -2275,7 +2275,7 @@ img {
 .top-product-card__button img {
   width: 20px;
   height: 20px;
-  margin: 0px 0px 0px 0px;
+  margin: 2px 0px 0px 0px;
 }
 .top-product-card__button span {
   display: block;
@@ -2407,7 +2407,7 @@ img {
 }
 @media (max-width: 992px) {
   .images-product__thumb {
-    height: 100%;
+    height: auto;
   }
 }
 @media (max-width: 1330px) {
@@ -2692,8 +2692,8 @@ img {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
-  -webkit-filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
-          filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+  -webkit-filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+          filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
 }
 .showmore__more span:last-child {
   display: none;
@@ -3007,8 +3007,8 @@ img {
   margin: 0px 0px 5px 0px;
   width: 14px;
   height: 16px;
-  -webkit-filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
-          filter: invert(73%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+  -webkit-filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
+          filter: invert(77%) sepia(67%) saturate(3442%) hue-rotate(355deg) brightness(93%) contrast(85%);
 }
 
 .block-slider .heading-complex {
